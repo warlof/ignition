@@ -13,7 +13,7 @@
         "php": "^7.2.5|^8.0",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "facade/flare-client-php": "^1.9.1",
+        "facade/flare-client-php": "^1.9.1|dev-main",
         "facade/ignition-contracts": "^1.0.2",
         "illuminate/support": "^7.0|^8.0|dev-master",
         "monolog/monolog": "^2.0",
@@ -28,6 +28,13 @@
         "orchestra/testbench": "^5.0|^6.0",
         "psalm/plugin-laravel": "^1.2"
     },
+    "repositories": [
+      {
+        "type": "github",
+        "url": "https://github.com/warlof/flare-client-php",
+        "no-api": true
+      }
+    ],
     "suggest": {
         "laravel/telescope": "^3.1"
     },
